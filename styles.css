@@ -1,45 +1,54 @@
-* {
-	margin: 0px;
-	padding: 0px;
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/4\ ruta\ desierto-2.jpg);
+    background-size: cover;
+
 }
 img {max-width:100%;}
 .container{
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    margin: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
+
+
 }
 .bio{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; 
+    width: 100%;
     margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 100px;
+    padding: 20px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
 }
 
 .profilePic{
     display: flex;
-    width: 600px;
-    height: 350px;
+    width: 300px;
+    height: 300px;  
+    border-radius: 1000px;
     
-
+    background-image: url(./img/me.jpg);
+    background-size: cover;
 }
 .linkButtonsContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightpink;
-    padding: 5px;
-}
+
 .linkButton{
     display: flex;
     justify-content: center;
@@ -49,13 +58,17 @@ img {max-width:100%;}
     border: 100px solid rgb(0, 0, 0);
     border-width: 2px;
     padding: 17px;
+    text-decoration: none;
   
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+
     width: 200px;
     display: block;
     margin-left: 20px;
     margin-right: 20px;
   
     border-radius: 40px;
-  
-    font-size: 18px;
+    color: black;
+    font-size: 25px;
 }

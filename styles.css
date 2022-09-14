@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 body{
     padding: 0px;
     margin: 0px;
@@ -6,6 +6,7 @@ body{
     height: 100vh;
     background-image: url(./img/4\ ruta\ desierto-2.jpg);
     background-size: cover;
+    font-family:'Poppins';
 
 }
 img {max-width:100%;}
@@ -27,11 +28,11 @@ img {max-width:100%;}
     flex-direction: column; 
     width: 100%;
     margin-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.484);
     border-radius: 100px;
-    padding: 20px;
+    padding: 30px;
     color: whitesmoke;
-    text-shadow: 2px 2px black;
+    text-shadow: 5px 3px 5px rgb(0, 0, 0);
 }
 
 .profilePic{
@@ -42,6 +43,7 @@ img {max-width:100%;}
     
     background-image: url(./img/me.jpg);
     background-size: cover;
+    box-shadow: 1px 1px 10px 1px black;
 }
 .linkButtonsContainer{
     display: flex;
@@ -60,9 +62,9 @@ img {max-width:100%;}
     padding: 17px;
     text-decoration: none;
   
-    background-image: url(./img/background.jpg);
-    background-size: cover;
-
+     background-image: url(./img/background.jpg);
+    background-size: cover; 
+    background-color: #dbb1bcd0;
     width: 200px;
     display: block;
     margin-left: 20px;
@@ -71,4 +73,5 @@ img {max-width:100%;}
     border-radius: 40px;
     color: black;
     font-size: 25px;
+    box-shadow: 1px 1px 10px 1px black;
 }
